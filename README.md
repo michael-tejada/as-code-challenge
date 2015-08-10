@@ -1,8 +1,3 @@
-# Sinatra File Structure
+# Email Predictor - Coding Challenge
 
-Here's the file structure we'll be using to build out your sinatra apps. 
-For each file and directory, think about the following questions:
-
-+ What are the responsibilities of this file?
-+ What does the code in the file do?
-+ How might we change this file to extend/enhance our application?
+### Directions: 

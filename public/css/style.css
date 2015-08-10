@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #ff6000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 71px;
+  background-color: #161510;
+  border-bottom: 1px solid #adadad;
+  text-align: center;
+  font-color: white;
+}
+
+img.logo {
+  padding: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a.email:link {
+  text-decoration: none;
+  color: black;
+}
+
+a.email:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.email:active {
+  text-decoration: none;
+  color: black;
+}
+
+a.email:hover {
+  text-decoration: none;
+  color: red;
+}
+
+div.result {
+  color: black;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+div.container {
+   width:500px;
+   height:500px;
+   margin:0 auto;
+   background:#f7f7f7;
+   position:absolute;
+   left:50%;
+   top:50%;
+   margin-left:-250px;
+   margin-top:-250px;
+}
+
+div.form {
+  text-align: center;
+}
