@@ -1,9 +1,18 @@
-
 <div class="form">
-  <h1>Email</h1>
-    <form action="/result" method="POST">
-      <input type="text" name="name" placeholder="Name"><br><br>
-      <input type="text" name="company" placeholder="ex: alphasights.com"><br><br>
-      <input type="submit" value="Submit">
+  <form action="/result" method="POST">
+    <header>Email Predictor</header>
+    <fieldset>
+      <section>
+        <input type="text" name="name" required="" placeholder="Name">
+        <label>Name</label>
+      </section>
+      <section>
+        <input type="text" name="company" required="" placeholder="Company URL">
+        <label>Company URL</label>
+      </section>
+    </fieldset>
+    <footer>
+      <button type="submit" class="button">Submit</button>
+    </footer>
   </form>
 </div>
