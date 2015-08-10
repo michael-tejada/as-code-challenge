@@ -1,6 +1,6 @@
 require './config/environment'
 require './app/models/email'
-require 'pry'
+# require 'pry'
 
 class ApplicationController < Sinatra::Base
 
