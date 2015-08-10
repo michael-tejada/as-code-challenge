@@ -7,7 +7,7 @@ body {
   font: 1em/1.5 'Open Sans', sans-serif;;
   color: rgb(21, 91, 121);
   text-transform: uppercase;
-  background-color: rgb(45, 165, 218);
+  background-color: rgb(255, 96, 0);
 }
 
 .fixed-nav-bar {
@@ -57,6 +57,7 @@ div.result-container {
   text-align: left;
   float: left;
   margin: 2em auto;
+  width: 20vw;
 }
 
 /* Form */
@@ -74,7 +75,7 @@ fieldset {
   margin: 0;
   padding: 1.5em 1.5em .5em;
   border: none;
-  background: rgb(203, 233, 246);
+  background: rgb(255, 192, 155);
 }
 
 section {
@@ -98,7 +99,7 @@ footer {
   border: 0;
   color: white;
   cursor: pointer;
-  background-color: rgb(45, 165, 218);
+  background-color: rgb(255, 96, 0);
   text-transform: uppercase;
   opacity: 1;
   transition: opacity 0.2s;
@@ -128,7 +129,7 @@ input {
   margin: 0.5em 0;
   padding: 2%;
   font-size: 0.78em;
-  border: 2px solid rgb(21, 91, 121);
+  border: 2px solid #161510;
   color: rgb(21, 91, 121);
 }
 
@@ -151,5 +152,5 @@ input:focus + label {
 }
 
 input:focus {
-  border-color: rgb(45, 165, 218);
+  border-color: rgb(255, 96, 0);
 }
