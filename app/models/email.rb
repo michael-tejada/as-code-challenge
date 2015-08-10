@@ -38,5 +38,4 @@ class Email
     end
   end
 
-
 end
