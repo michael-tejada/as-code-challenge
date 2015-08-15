@@ -1,5 +1,5 @@
 require './config/environment'
-require './app/models/email'
+require './app/models/person'
 # require 'pry'
 
 class ApplicationController < Sinatra::Base
@@ -14,8 +14,14 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/result' do
-    @client = Email.new(params[:name], params[:company])
+    @person = Person.new(params[:first_name], params[:last_name], params[:company_site])
     erb :result
+  end
+
+  post '/add' do
+    @add_person = Person.new(params[:first_name], params[:last_name], params[:company_site], params[:email])
+    @add_person.add_to_hash
+    erb :add
   end
 
 end

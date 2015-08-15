@@ -3,12 +3,41 @@
     <header>Email Predictor</header>
     <fieldset>
       <section>
-        <input type="text" name="name" required="" placeholder="Name">
-        <label>Name</label>
+        <input type="text" name="first_name" required="" placeholder="First Name">
+        <label>First Name</label>
       </section>
       <section>
-        <input type="text" name="company" required="" placeholder="Company URL">
-        <label>Company URL</label>
+        <input type="text" name="last_name" required="" placeholder="Last Name">
+        <label>Last Name</label>
+      </section>
+      <section>
+        <input type="text" name="company_site" required="" placeholder="Company Site">
+        <label>Company Site</label>
+      </section>
+    </fieldset>
+    <footer>
+      <button type="submit" class="button">Submit</button>
+    </footer>
+  </form>
+<br><br>
+  <form action="/add" method="POST">
+    <header>Add Name and Email to Database</header>
+    <fieldset>
+      <section>
+        <input type="text" name="first_name" required="" placeholder="First Name">
+        <label>First Name</label>
+      </section>
+      <section>
+        <input type="text" name="last_name" required="" placeholder="Last Name">
+        <label>Last Name</label>
+      </section>
+      <section>
+        <input type="text" name="company_site" required="" placeholder="Company Site">
+        <label>Company Site</label>
+      </section>
+      <section>
+        <input type="text" name="email" required="" placeholder="me@example.com">
+        <label>Email</label>
       </section>
     </fieldset>
     <footer>

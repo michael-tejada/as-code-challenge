@@ -1,7 +1,7 @@
 <div class="result-container">
-  <p><strong><%= @client.name %></strong>: <%= @client.predict %>
+  <p><strong><%= @person.name.join(" ") %></strong>: <%= @person.find_email.join(" ") %>
 
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=<%=@client.predict %>" target="_blank" class="email">&#9993</a></p>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=<%=@person.find_email.join(" ") %>" target="_blank" class="email">&#9993</a></p>
 
 
 </div>
